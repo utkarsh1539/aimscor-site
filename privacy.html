@@ -12,7 +12,7 @@
 <h2>The short version</h2>
 <ul>
 <li>Your tournaments, teams, points and posters are stored <strong>only on your phone</strong>.</li>
-<li>Screenshots are read <strong>on your phone</strong>. They leave the phone only if you tap <strong>"Double-check online"</strong>, and they are not stored.</li>
+<li>Screenshots are read <strong>on your phone</strong>. They leave the phone only if you tap <strong>"Double-check online"</strong> (not stored), or if you allow <strong>"Help improve AI"</strong> (stored privately to train AimScor's reader; you can turn it off any time).</li>
 <li>If you sign in with Google, we keep your email address, name and an account ID so the app works and you can delete your account.</li>
 <li>No ads, no analytics or tracking tools, and we never sell your data.</li>
 </ul>
@@ -23,6 +23,7 @@
 <tr><td>Google account email, name and profile photo link</td><td>When you choose "Sign in with Google"</td><td>To create and identify your account, show who is signed in, and let you delete the account</td></tr>
 <tr><td>Account ID (a random identifier)</td><td>When you sign in with Google or continue as a guest</td><td>To run your account and keep the app's AI features working</td></tr>
 <tr><td>Screenshots you choose</td><td>Only when you tap "Double-check online" (signed-in accounts)</td><td>Sent to our server and read by Google's Gemini service to extract ranks, team names and kills. They are processed in memory and <strong>not stored</strong> by us.</td></tr>
+<tr><td>Screenshots of saved matches, with the results you saved (places, kills, team names, slots) and the app version</td><td>Only if you allow "Help improve AI" (asked once; Settings → Scan settings to turn it off). Sent after you save a match, never during a scan</td><td>To train and test AimScor's own screenshot reader so it reads places, kills and slots more accurately. Stored privately on our server; never shared or sold, and never used for ads</td></tr>
 <tr><td>Daily count of online double-checks</td><td>Each time you use "Double-check online"</td><td>To apply a fair daily limit and protect the service from abuse</td></tr>
 <tr><td>Google Play Integrity verdict</td><td>When the app unlocks AI scan</td><td>To check that the app is the genuine version from Google Play on a real device (protects against modified copies). The verdict is checked and not stored.</td></tr>
 </table>
@@ -31,7 +32,7 @@
 <p>Tournaments, team lists, match results, player kills, poster designs and settings are saved on your device only. We do not receive them. When you share a poster, a table or an <code>.aimscor</code> file, it goes only to the app or person you choose.</p>
 
 <h2>Permissions</h2>
-<p>AimScor uses internet access (sign-in, unlocking AI scan, online double-check). You pick screenshots with the Android photo picker, so the app does not get access to your whole gallery. Saving a poster adds that one image to your gallery.</p>
+<p>AimScor uses internet access (sign-in, unlocking AI scan, online double-check, "Help improve AI" uploads) and checks whether you are on Wi-Fi (for the "Only on Wi-Fi" option). You pick screenshots with the Android photo picker, so the app does not get access to your whole gallery. Saving a poster adds that one image to your gallery.</p>
 
 <h2>Service providers</h2>
 <p>We use these providers to run the app. They process data only on our behalf:</p>
@@ -45,6 +46,7 @@
 <ul>
 <li>Account data is kept until you delete your account.</li>
 <li>Screenshots sent for "Double-check online" are not kept after they are read.</li>
+<li>"Help improve AI" screenshots and results are kept until they are no longer needed for training, or until you delete your account, whichever comes first. Turning the setting off stops new uploads.</li>
 <li>Our server keeps short technical logs for a few days to fix errors and stop abuse.</li>
 <li>If an account was blocked for abuse, we keep its email address on a block list after deletion, so the block still applies.</li>
 </ul>
